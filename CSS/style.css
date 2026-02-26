@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'sans-serif';
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: black;
+    padding: 15px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(7, 46, 105);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #3c90f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+.hero img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: white;
+    color: #2260d4;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.dark {
+    background: #f4f4f4;
+}
+
+.skills {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.html { width: 70%; background: #ff4d4d;}
+.css { width: 40%; background: #4da6ff;}
+.js { width: 10%; background: #ffd633;}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
